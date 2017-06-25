@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="動態生成表格" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/tableBackground"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:background="@color/tableBackground" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="@color/tableItem"
+                android:gravity="center"
+                android:text="@string/student_id"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="@color/tableItem"
+                android:gravity="center"
+                android:text="@string/student_name"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:background="@color/tableItem"
+                android:text="@string/student_sex"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:background="@color/tableItem"
+                android:text="@string/student_score"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/tableBackground"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_margin="0.5dip"
+            android:background="@color/tableBackground" >
+            <!--
+            <TextView
+                android:layout_margin="1dip"
+                android:background="@color/tableItem"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="@color/tableItem"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="@color/tableItem"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="@color/tableItem"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+            -->
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

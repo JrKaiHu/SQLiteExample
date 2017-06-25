@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLiteExample</string>
+    <string name="student_id">ID</string>
+    <string name="student_sex">Sex</string>
+    <string name="student_name">Name</string>
+    <string name="student_score">Score</string>
+</resources>
