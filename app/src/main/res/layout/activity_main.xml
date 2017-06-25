@@ -88,7 +88,7 @@
         android:stretchColumns="*" >
 
         <TableRow
-            android:layout_margin="0.5dip"
+            android:layout_margin="1dip"
             android:background="@color/tableBackground" >
             <!--
             <TextView
